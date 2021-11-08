@@ -229,12 +229,19 @@ nav ul li:last-child:after{
     justify-content: center;
     text-align: center;
 }
+.process .step-box .box{
+    width: 33%;
+}
 .process .step-box .box h3{
     margin: 20px 0;
+    color: #212529;
 }
 .process .step-box .box p{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    color: #212529;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 /* Download */
@@ -286,4 +293,39 @@ nav ul li:last-child:after{
     color: #092753;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* footer */
+.footer{
+    background-color: #F26D3E;
+    padding: 30px 0;
+}
+.footer-box{
+    display: flex;
+}
+
+.footer-box .box{
+    width: 30%;
+}
+.footer-box .box:nth-child(1){
+    width: 20%;
+}
+.footer-box .box:nth-child(2){
+    width: 20%;
+}
+.footer-box .box ul{
+    list-style-type: none;
+}
+.footer-box .box ul li{
+    margin-bottom: 20px;
+}
+.footer-box .box ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.footer-box .box p{
+    font-size: 15px;
+    margin-bottom: 20px;
 }
