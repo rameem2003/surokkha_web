@@ -18,10 +18,23 @@
 /* Head */
 nav{
     display: flex;
+    justify-content: space-between;
 }
 nav img{
     width: 20%;
     height: 20%;
+}
+
+nav .btn{
+    font-size: 35px;
+    padding: 10px;
+    line-height: 60px;
+    display: block;
+    display: none;
+}
+
+nav #ch{
+    display: none;
 }
 nav ul{
     width: 80%;
