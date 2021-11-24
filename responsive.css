@@ -1,0 +1,149 @@
+@media screen and (max-width: 360px) {
+    /* Default CSS */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+
+    /* Head */
+    .head nav img{
+        width: 60%;
+    }
+
+    .head nav label{
+        display: block;
+        cursor: pointer;
+    }
+    .head nav ul{
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        top: 79px;
+        height: 50%;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #ch:checked ~ ul{
+        left: 0;
+    }
+    .head nav ul li{
+        display: block;
+        text-align: left;
+        line-height: 40px;
+    }
+
+    nav ul li::after{
+        display: none;
+    }
+
+
+    /* Main body */
+    .body{
+        padding: 20px 0;
+    }
+    .body .container{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .body .flex{
+        display: block;
+    }
+
+    .body .left{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .body .left .title img{
+        width: 71px;
+        height: 68px;
+    }
+    .body .left .title h2{
+        line-height: 32px;
+        font-size: 21px;
+    }
+    .body .left p{
+        margin-top: 20px;
+    }
+    
+    .body .right{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .body .right .card{
+        width: 85%;
+        margin-left: 8px;
+    }
+
+
+
+    /* Hotlines */
+    .hotline-box{
+        position: static;
+        display: block;
+        text-align: center;
+    }
+
+    .hotline-box .num{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* Process */
+    .process .container{
+        box-sizing: border-box;
+    }
+    .process .head h1{
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-indent: 10px;
+    }
+
+    .process .step-box{
+        display: block;
+        text-align: center;
+    }
+    .process .step-box .box{
+        width: 100%;
+    }
+
+
+
+    /* Mujib 100 */
+
+    .mujib-link{
+        display: block;
+    }
+
+    .mujib-link .box{
+        width: 100%;
+    }
+
+
+
+    /* Footer */
+
+    .footer-box{
+        display: block;
+    }
+
+    .footer-box .box{
+        width: 100%;
+    }
+
+    .footer-box .box ul{
+        width: 500px;
+    }
+
+
+
+    
+}
