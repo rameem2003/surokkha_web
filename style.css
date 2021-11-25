@@ -5,7 +5,10 @@
     padding: 0;
     outline: none;
 }
-
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
 .container{
     width: 85%;
     margin: 0 auto;

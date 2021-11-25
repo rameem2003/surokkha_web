@@ -8,6 +8,7 @@
     .container{
         width: 96%;
         margin: 0 auto;
+        box-sizing: border-box;
     }
 
 
@@ -22,7 +23,7 @@
     }
     .head nav ul{
         position: fixed;
-        width: 100%;
+        width: 100vw;
         left: -100%;
         top: 79px;
         height: 50%;
@@ -115,6 +116,10 @@
         width: 100%;
     }
 
+    /* Download */
+    .download .link{
+        display: block;
+    }
 
 
     /* Mujib 100 */
