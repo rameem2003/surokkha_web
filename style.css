@@ -19,6 +19,14 @@ body{
 }
 
 /* Head */
+.header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -104,6 +112,7 @@ nav ul li:last-child:after{
     background-image: url('./img/banner-bg.7358efba.jpg');
     height: auto;
     padding: 50px;
+    margin-top: 90px;
 }
 
 .body .container{

@@ -13,15 +13,15 @@
 
 
     /* Head */
-    .head nav img{
+    .header nav img{
         width: 60%;
     }
 
-    .head nav label{
+    .header nav label{
         display: block;
         cursor: pointer;
     }
-    .head nav ul{
+    .header nav ul{
         position: fixed;
         width: 100vw;
         left: -100%;
@@ -34,7 +34,7 @@
     #ch:checked ~ ul{
         left: 0;
     }
-    .head nav ul li{
+    .header nav ul li{
         display: block;
         text-align: left;
         line-height: 40px;
@@ -52,6 +52,7 @@
     .body .container{
         width: 96%;
         margin: 0 auto;
+        box-sizing: border-box;
     }
     .body .flex{
         display: block;
@@ -117,6 +118,9 @@
     }
 
     /* Download */
+    .download .container{
+        box-sizing: border-box;
+    }
     .download .link{
         display: block;
     }
@@ -145,7 +149,8 @@
     }
 
     .footer-box .box ul{
-        width: 500px;
+        width: 200px;
+        display: block;
     }
 
 
