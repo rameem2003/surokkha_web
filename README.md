@@ -19,7 +19,7 @@ rameem2003.github.io/surokkha_web
 
 - [x] HTML
 - [x] CSS
-- [] Responsive
+- [x] Responsive
 
 
 ![profile](./img/me.jpg)  
